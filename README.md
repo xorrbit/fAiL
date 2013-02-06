@@ -5,7 +5,7 @@ Runs a simulation useful for verifing how often a temporary file name will conta
 
 Example
 =======
-
+```shell
 aorr@l00055-ubu:~/fAiL$ time ruby fAiL.rb
 djsbx is a noob
 hit: fAiL1s pos: 160742
@@ -31,4 +31,4 @@ hit: fAiLAj pos: 4972832
 real  12m45.313s
 user	12m43.288s
 sys	0m0.104s
-
+```
