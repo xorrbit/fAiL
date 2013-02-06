@@ -6,8 +6,8 @@ Runs a simulation useful for verifing how often a temporary file name will conta
 Example
 =======
 ```shell
-aorr@l00055-ubu:~/fAiL$ time ruby fAiL.rb
-djsbx is a noob
+~/fAiL$ time ruby fAiL.rb
+
 hit: fAiL1s pos: 160742
 hit: DgFail pos: 261102
 hit: 3faiL7 pos: 403046
