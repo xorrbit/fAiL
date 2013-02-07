@@ -35,22 +35,24 @@ Ruby Example
 ============
 ```shell
 andrew@ubuntu-1:~/fAiL$ time ruby fAiL.rb 
-hit: NYFaiL pos: 123898
-hit: lFAilf pos: 164439
-hit: CFAIl6 pos: 439007
-hit: Fail4B pos: 879541
-hit: FAIlLx pos: 963172
-hit: myFaIL pos: 1317445
-hit: AfaiLf pos: 1371659
-hit: gfAILM pos: 1539974
-hit: mFaIli pos: 2140909
-hit: elFAIL pos: 3210983
-hit: MxfAil pos: 3906994
-hit: NCFail pos: 4042194
-hit: hbFaIl pos: 4429072
-hit: JfAIlL pos: 4921781
+hit: jnFAil pos: 423961
+hit: WfaiLN pos: 649832
+hit: faiLRG pos: 746572
+hit: FaILfB pos: 1380868
+hit: hFAiL3 pos: 1771856
+hit: faIlgc pos: 2630392
+hit: X6FAil pos: 2744904
+hit: HfailX pos: 3020457
+hit: 4jfAil pos: 4037375
+hit: faileb pos: 4111200
+hit: yVfaIl pos: 4298580
+hit: UfailQ pos: 4590113
+hit: TfAILl pos: 4782495
+hit: HfAill pos: 4825550
+hit: faILfa pos: 4920598
+hit: QfAIlQ pos: 4974443
 
-real  9m1.950s
-user	8m48.521s
-sys	0m0.128s
+real  0m18.302s
+user	0m18.053s
+sys	0m0.008s
 ```
