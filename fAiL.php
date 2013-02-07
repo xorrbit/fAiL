@@ -6,15 +6,8 @@ $iterations = 5000000;
 $length = 6;
 
 for($pos = 0; $pos < $iterations; ++$pos) {
-
-	$file = "";
-
-	foreach(array_rand($characters, $length) as $key) {
-		$file .= $characters[$key];
-	}
-
-	if(preg_match("/fail/", strtolower($file))) {
+	$file = strtolower(array_merge(array_rand($characters, $length)));
+	if(strpos($file, "fail")) {
 		echo sprintf("hit: %s pos: %s\n", $file, $pos);
 	}
-
 }
