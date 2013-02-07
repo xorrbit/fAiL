@@ -2,24 +2,24 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
 
-#define LEN 6
-
-/* letters are all lowercase so I don't need to convert to lower later */
-char alnum[] = "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz0123456789";
+char alnum[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
 int main()
 {
 	srand(time(NULL));
 
-	char buf[LEN];
+	char buf[6];
+	char lower_buf[6];
 
 	for (int i = 0; i < 5000000; i++) {
-		for (int j = 0; j < LEN; j++) {
+		for (int j = 0; j < 6; j++) {
 			buf[j] = alnum[rand()%62];
+			lower_buf[j] = (char)tolower(buf[j]);
 		}
 
-		if (strstr(buf, "fail")) {
+		if (strstr(lower_buf, "fail")) {
 			printf("hit: %s pos: %d\n", buf, i);
 		}
 	}
