@@ -26,9 +26,9 @@ hit: yBfaiL pos: 4546513
 hit: faIlQV pos: 4793717
 hit: GKfAIl pos: 4899614
 
-real  0m4.193s
-user	0m2.808s
-sys	0m1.344s
+real 0m4.193s
+user 0m2.808s
+sys  0m1.344s
 ```
 
 Ruby Example
@@ -52,7 +52,34 @@ hit: HfAill pos: 4825550
 hit: faILfa pos: 4920598
 hit: QfAIlQ pos: 4974443
 
-real  0m18.302s
-user	0m18.053s
-sys	0m0.008s
+real 0m18.302s
+user 0m18.053s
+sys  0m0.008s
+```
+
+Python Example
+==============
+```shell
+osx-1:fAiL fchorney$ time python fAiL.py 
+hit: 7FaIlZ pos: 549242
+hit: n9FaIl pos: 675029
+hit: 7xFAil pos: 1216462
+hit: FaiLH9 pos: 1508194
+hit: faILZq pos: 1649719
+hit: FaIlcC pos: 1693580
+hit: 2FAILT pos: 1768645
+hit: FaillA pos: 2509784
+hit: FAilhp pos: 2691781
+hit: fAilOu pos: 2758788
+hit: FAIliZ pos: 3515171
+hit: HfAiLW pos: 3556958
+hit: zGFail pos: 4283041
+hit: fail4v pos: 4376691
+hit: QFAILJ pos: 4442156
+hit: HWFAIL pos: 4526714
+hit: FaIlpn pos: 4939847
+
+real 1m6.849s
+user 0m58.030s
+sys  0m0.462s
 ```
