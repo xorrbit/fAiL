@@ -5,7 +5,7 @@ $characters = array('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 
 $iterations = 5000000;
 $length = 6;
 
-for($pos = 0; $pos <= $iterations; ++$pos) {
+for($pos = 0; $pos < $iterations; ++$pos) {
 
 	$file = "";
 
