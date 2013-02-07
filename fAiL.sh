@@ -5,7 +5,7 @@ N=6
 TARGET='fail'
 CHARS=$(expr $RUNS '*' $N)
 
-tr -dc a-zA-Z0-9 < /dev/urandom \
+LC_ALL=C tr -dc a-zA-Z0-9 < /dev/urandom \
     | head -c $CHARS \
     | fold -w $N \
     | grep -ni $TARGET \
