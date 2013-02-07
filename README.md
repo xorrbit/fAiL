@@ -83,3 +83,31 @@ real 1m6.849s
 user 0m58.030s
 sys  0m0.462s
 ```
+
+Javascript Example
+==================
+```shell
+$ time node fAiL.js
+hit: UfAiL4 pos: 13183
+hit: 2FAIlD pos: 38565
+hit: FaILcQ pos: 510006
+hit: 0FAil2 pos: 906225
+hit: qfAILe pos: 1023571
+hit: fAIlrP pos: 1485184
+hit: OFAiLU pos: 1579370
+hit: faiLps pos: 1792167
+hit: FailoX pos: 1910296
+hit: vxfAIL pos: 2086795
+hit: LtfaIl pos: 2322709
+hit: FAil2O pos: 2633912
+hit: 7mfAiL pos: 2798442
+hit: FAiLDU pos: 2919560
+hit: cCFAil pos: 4159578
+hit: fAILXu pos: 4446834
+hit: jPFaIL pos: 4788792
+hit: LfAilS pos: 4867977
+
+real	0m3.182s
+user	0m3.150s
+sys	    0m0.040s
+```
