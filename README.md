@@ -11,9 +11,10 @@ Benchmarks
 ==========
 If you update these, update them ALL on the same machine with nothing else running.
 
-* C - 0.767 seconds
-* JS - 3.154 seconds
-* Go - 5.494 seconds
-* Ruby - 25.851 seconds
-* PHP - 27.567 seconds
-* Python - 32.500 seconds
+* C - 0.752 seconds
+* JS - 2.511 seconds
+* Go - 4.315 seconds
+* Shell - 14.491 seconds
+* Ruby - 18.311 seconds
+* PHP - 19.525 seconds
+* Python - 22.261 seconds
